@@ -1,0 +1,243 @@
+body{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    /* background-image: url(./mitchess\ black\ and\ yellow\ 1.jpg); */
+    background-color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(139, 11, 212);
+    /* background-image: url(./mitchess\ black\ and\ yellow\ 1.jpg); */
+    background-color: black;
+}
+.page-name{
+    margin-right: 42rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 100px;
+}
+.text{
+    font-size: 25px;
+}
+.links{
+    display: flex;
+    margin-left: 17rem;
+    gap: 1rem;
+    font-size: small;
+}
+a{
+    color: black ;
+    text-decoration:none;
+    /* background-color: rgb(230, 172, 16); */
+    background-color: purple;
+    padding: .5rem;
+    border-radius: 100px;
+}
+a:hover{
+    /* background-color: rgb(87, 65, 5); */
+    background-color: rgb(212, 20, 212);
+}
+.linked{
+    padding-top: 1rem;
+    /* background-color: rgb(235, 175, 13); */
+    background-color: purple;
+    display: flex;
+    gap: 1rem;
+}
+.search_bar{
+    border: rgb(7, 34, 156);
+    width: 200px;
+    height: 40px;
+    font-size: small;
+    padding: .5rem 1rem;
+    /* background-color: rgb(199, 164, 9); */
+    background-color: purple;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 5rem;
+}
+form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.search_bar:hover{
+    /* background-color: rgb(139, 89, 13); */
+    background-color: rgb(212, 20, 212);
+}
+.book_container{
+    width: 100px;
+    height: 900px;
+    margin-left: 4.5rem;
+    position: relative;
+    gap: 5rem;
+}
+#item1{
+    width: 230px;
+    height: 300px;
+    margin-left: 2rem;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 0%;
+    left: 0rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item2{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 0%;
+    left: 20rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item3{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 0%;
+    left: 38rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item4{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 0%;
+    left: 56rem;
+    gap: 5rem;
+    border-radius: 0%;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item5{
+    width: 230px;
+    height: 300px;
+    margin-left: 2rem;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 40%;
+    left: 0rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item6{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 40%;
+    left: 20rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item7{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 40%;
+    left: 38rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+#item8{
+    width: 230px;
+    height: 300px;
+    padding: 0.95rem;
+    position: absolute;
+    /* background-color: rgb(255, 214, 80); */
+    background-color: rgb(236, 96, 236);
+    top: 40%;
+    left: 56rem;
+    border-radius: 0%;
+    gap: 5rem;
+    /* border: 8px solid rgb(201, 102, 10); */
+    border: 8px solid rgb(91, 6, 112);
+}
+.books{
+    color: rgb(174, 0, 255);
+    background-color: rgb(0, 0, 0);
+}
+#cl1{
+    position: absolute;
+    top: 73% ;
+    margin-left: 11.5rem;
+}
+#cl2{
+    position: absolute;
+    top: 73% ;
+    left: 35%;
+}
+#cl3{
+    position: absolute;
+    top: 73% ;
+    margin-left: 56%;
+}
+#cl4{
+    position: absolute;
+    top: 73% ;
+    margin-left: 78%;
+}
+#cl5{
+    position: absolute;
+    top: 125%;
+    margin-left: 11.5rem;
+}
+#cl6{
+    position: absolute;
+    top: 125%;
+    left: 35%;
+}
+#cl7{
+    position: absolute;
+    top: 125%;
+    margin-left: 56%;
+}
+#cl8{
+    position: absolute;
+    top: 125%;
+    margin-left: 78%;
+}
+#img1{
+    width: 195px;
+    height: 240px;
+    position: absolute;
+    top: 40%;
+    margin-left: 9rem;
+}
