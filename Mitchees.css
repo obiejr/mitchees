@@ -3,15 +3,13 @@ body{
     height: 100%;
     object-fit: cover;
     margin: 0;
-    /* background-image: url(./mitchess\ black\ and\ yellow\ 1.jpg); */
-    background-color: black;
+    background-color: white;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(139, 11, 212);
-    /* background-image: url(./mitchess\ black\ and\ yellow\ 1.jpg); */
     background-color: black;
 }
 .page-name{
@@ -30,20 +28,17 @@ body{
     font-size: small;
 }
 a{
-    color: black ;
+    color: rgb(255, 255, 255) ;
     text-decoration:none;
-    /* background-color: rgb(230, 172, 16); */
     background-color: purple;
     padding: .5rem;
     border-radius: 100px;
 }
 a:hover{
-    /* background-color: rgb(87, 65, 5); */
     background-color: rgb(212, 20, 212);
 }
 .linked{
     padding-top: 1rem;
-    /* background-color: rgb(235, 175, 13); */
     background-color: purple;
     display: flex;
     gap: 1rem;
@@ -54,7 +49,6 @@ a:hover{
     height: 40px;
     font-size: small;
     padding: .5rem 1rem;
-    /* background-color: rgb(199, 164, 9); */
     background-color: purple;
     box-sizing: border-box;
     outline: 0;
@@ -66,7 +60,6 @@ form{
     justify-content: flex-end;
 }
 .search_bar:hover{
-    /* background-color: rgb(139, 89, 13); */
     background-color: rgb(212, 20, 212);
 }
 .book_container{
@@ -82,13 +75,11 @@ form{
     margin-left: 2rem;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 0%;
     left: 0rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item2{
@@ -96,13 +87,11 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 0%;
     left: 20rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item3{
@@ -110,13 +99,11 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 0%;
     left: 38rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item4{
@@ -124,13 +111,11 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 0%;
     left: 56rem;
     gap: 5rem;
     border-radius: 0%;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item5{
@@ -139,13 +124,11 @@ form{
     margin-left: 2rem;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 40%;
     left: 0rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item6{
@@ -153,13 +136,11 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 40%;
     left: 20rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item7{
@@ -167,13 +148,11 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 40%;
     left: 38rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 #item8{
@@ -181,18 +160,16 @@ form{
     height: 300px;
     padding: 0.95rem;
     position: absolute;
-    /* background-color: rgb(255, 214, 80); */
     background-color: rgb(236, 96, 236);
     top: 40%;
     left: 56rem;
     border-radius: 0%;
     gap: 5rem;
-    /* border: 8px solid rgb(201, 102, 10); */
     border: 8px solid rgb(91, 6, 112);
 }
 .books{
     color: rgb(174, 0, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 #cl1{
     position: absolute;
@@ -234,10 +211,5 @@ form{
     top: 125%;
     margin-left: 78%;
 }
-#img1{
-    width: 195px;
-    height: 240px;
-    position: absolute;
-    top: 40%;
-    margin-left: 9rem;
-}
+
+
